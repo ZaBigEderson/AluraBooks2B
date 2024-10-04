@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
-            <span class="cabecalho-menu-hamburguer"></span>
-            <img src="img/Logo.png" alt="Logo da ALuraBooks">
+            <input type="checkbox" id="menu" class="container-botao">
+            <label for="menu">
+                <span class="cabecalho-menu-hamburguer container-imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-titulo">Categorias</li>
+                <li class="lista-item">
+                    <a href="#" class="lista-menu-link">Programação</a>
+                </li>
+                <li class="lista-item">
+                    <a href="#" class="lista-menu-link">Front-End</a>
+                </li>
+                <li class="lista-item">
+                    <a href="#" class="lista-menu-link">Infraestrutura</a>
+                </li>
+                <li class="lista-item">
+                    <a href="#" class="lista-menu-link">Business</a>
+                </li>
+                <li class="lista-item">
+                    <a href="#" class="lista-menu-link">Design & UX</a>
+                </li>
+            </ul>
+            <img src="img/Logo.png" alt="Logo da AluraBooks">
         </div>
         <div class="container">
-            <a href="#"><img src="img/Favoritos.png" alt="Meus favoritos"></a>
-            <a href="#"><img src="img/Sacola.png" alt="Carrinho de compras"></a>
-            <a href="#"><img src="img/Perfil.png" alt="Meu perfil"></a>
+            <a href="#"><img src="img/Favoritos.png" alt="Meus favoritos" class="container-imagem"></a>
+            <a href="#"><img src="img/Sacola.png" alt="Carrinho de compras" class="container-imagem"></a>
+            <a href="#"><img src="img/Perfil.png" alt="Meu perfil" class="container-imagem"></a>
         </div>
     </header>
+    <section class="banner">
+        <h2 class="banner-titulo">Já sabe por onde começar?</h2>
+        <p class="banner-texto">Encontre o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner-pesquisa" placeholder="Qual será sua próxima leitura?">
+    </section>
+    <section class="carrossel">
+        <h2 class="carrosel-titulo">Novo Lançamentos</h2>
+        
+    </section>
 </body>
+
 </html>
